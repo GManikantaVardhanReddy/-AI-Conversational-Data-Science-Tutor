@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 
 # Configure Google Gemini API
 try:
-    genai.configure(api_key="AIzaSyDplai8TdzRpuYaY73_cRD0JiZajCyhqu4")
+    genai.configure(api_key="AIzaSyDplai8TdzRpuYaY73_cRD0JiZajCyh")
     model = genai.GenerativeModel(
         "gemini-1.5-pro",
         generation_config={
